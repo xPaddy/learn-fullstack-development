@@ -12,5 +12,12 @@ let messages = [
 
 let newMessage = "Same here!"
 
+messages.push(newMessage);
 
+console.log(messages);
 
+// How to remove the last item in an array
+
+messages.pop();
+
+console.log(messages);
